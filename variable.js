@@ -31,4 +31,7 @@ let globalName = 'global name';
 console.log(age);
 
 //3. Contants
-//favor immutable
+//favor immutable data type always for a few seconds
+// -security
+// -thread safety
+// -reduce human mistakes
