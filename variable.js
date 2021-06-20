@@ -29,3 +29,6 @@ let globalName = 'global name';
     var age;
 }
 console.log(age);
+
+//3. Contants
+//favor immutable
