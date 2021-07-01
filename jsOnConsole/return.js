@@ -32,6 +32,14 @@ const timesResult = calculator.times(10, minusResult);
 const divideResult = calculator.divide(timesResult, plusResult);
 const powerResult = calculator.powerOf(divideResult, minusResult);
 
-const day = prompt("what day is it today?");
+const day = parseInt(prompt("what day is it today?"));
 
-console.log(typeof day, typeof parseInt("day"));
+// console.log(typeof day, typeof parseInt("day"));
+
+console.log(isNaN(day));
+
+if (isNaN(day)) {
+  console.log("please write a number");
+} else {
+  console.log("thank you for writing today.");
+}
